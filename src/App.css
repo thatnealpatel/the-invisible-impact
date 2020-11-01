@@ -60,6 +60,7 @@ body {
 
 /* QR Prompt */
 .prompt-text {
+  width: 85vw;
   font-family: "Biryani" !important;
   position: absolute;
   top: 50%;  
