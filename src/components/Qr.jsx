@@ -2,10 +2,10 @@ import React from "react";
 import ParticleBackground from "./spa/ParticleBackground";
 
 const prompts = {
-  1: "[1] How do you think you could improve your impact on the ecological system of Athens?",
-  2: "[2] Do you like pizza?",
-  3: "[3] Ever left the country?",
-  4: "[4] Stop using plastic?",
+  1: "How do you think you could improve your impact on the ecological system of Athens? [1]",
+  2: "What do you think communities can do to increase the environmental viability of their area? [2]",
+  3: "What frustrates you about environmental justice? [3]",
+  4: "Do you think the government is holding up its end of the bargain in relation to environmental justice? [4]",
 };
 
 const Qr = () => {
