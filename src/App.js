@@ -7,12 +7,10 @@ import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
 
 const Main = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={Splash}></Route>
-      <Route exact path='/qr' component={Qr}></Route>
-    </Switch>
-  </BrowserRouter>
+  <Switch>
+    <Route exact path='/' component={Splash}></Route>
+    <Route exact path='/qr' component={Qr}></Route>
+  </Switch>
 );
 
 function App() {
