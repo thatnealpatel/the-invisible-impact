@@ -1,10 +1,11 @@
 {
   "name": "sus-and-env",
   "description": "Online space for the physical imlpementation of our project.",
-  "homepage": "http://nealdotpy.github.io/",
+  "homepage": "https://helpushelp.earth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.18",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
