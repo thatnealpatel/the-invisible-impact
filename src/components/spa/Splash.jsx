@@ -8,14 +8,14 @@ const cursorProps = {blink: true};
 
 const Splash = () => {
   return (
-    <div className="splash">
+    <section id="splash" className="splash section">
       <ParticleBackground/>
       <div className="splash-text">
         <Typist cursor={cursorProps}>
           {"The Invisible Impact "}
          </Typist>
       </div>
-    </div>
+    </section>
   );
 };
 

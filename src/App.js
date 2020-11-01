@@ -8,26 +8,26 @@ import Qr from "./components/Qr";
 import ReactFullPage from '@fullpage/react-fullpage';
 
 const SPA = () => (
-<ReactFullPage
-  debug
-  navigation = {false}
-  navigationPosition = {'left'}
-  navigationTooltips = {['', 'About', 'Schedule', 'FAQ', 'COVID FAQ', 'Sponsors']}
-  licenseKey = {'OPEN-SOURCE-GPLV3-LICENSE'}
-  scrollingSpeed = {1000}
-  // anchors={['splash', 'about', 'schedule', 'faq', 'covidfaq', 'sponsors']}
+  <ReactFullPage
+    debug
+    navigation = {true}
+    navigationPosition = {'left'}
+    navigationTooltips = {['', 'About', 'Schedule', 'FAQ', 'COVID FAQ', 'Sponsors']}
+    licenseKey = {'OPEN-SOURCE-GPLV3-LICENSE'}
+    scrollingSpeed = {1000}
+    // anchors={['splash', 'about', 'schedule', 'faq', 'covidfaq', 'sponsors']}
 
-  render={comp => (
-      <ReactFullPage.Wrapper>
-        <Splash/>
-      </ReactFullPage.Wrapper>
-  )}
-/>
+    render={comp => (
+        <ReactFullPage.Wrapper>
+          <Splash/>
+        </ReactFullPage.Wrapper>
+    )}
+  />
 );
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' component={Splash}></Route>
+    <Route exact path='/' component={SPA}></Route>
     <Route exact path='/qr' component={Qr}></Route>
   </Switch>
 );
