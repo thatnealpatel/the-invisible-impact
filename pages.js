@@ -1,6 +1,6 @@
 const ghpages = require("gh-pages");
 const pathname = `${__dirname}/build`;
-const repoURL = "https://github.com/nealdotpy/sustainability-and-environment.git";
+const repoURL = "https://github.com/nealdotpy/the-invisible-impact.git";
 
 ghpages.publish(
   pathname,
