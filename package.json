@@ -1,7 +1,7 @@
 {
   "name": "sus-and-env",
   "description": "Online space for the physical imlpementation of our project.",
-  "homepage": "https://helpushelp.earth/",
+  "homepage": "http://nealdotpy.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
