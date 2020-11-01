@@ -1,10 +1,29 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.bundle.min";
 import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
+
+import ReactFullPage from '@fullpage/react-fullpage';
+
+const SPA = () => (
+<ReactFullPage
+  debug
+  navigation = {false}
+  navigationPosition = {'left'}
+  navigationTooltips = {['', 'About', 'Schedule', 'FAQ', 'COVID FAQ', 'Sponsors']}
+  licenseKey = {'OPEN-SOURCE-GPLV3-LICENSE'}
+  scrollingSpeed = {1000}
+  // anchors={['splash', 'about', 'schedule', 'faq', 'covidfaq', 'sponsors']}
+
+  render={comp => (
+      <ReactFullPage.Wrapper>
+        <Splash/>
+      </ReactFullPage.Wrapper>
+  )}
+/>
+);
 
 const Main = () => (
   <Switch>
@@ -16,9 +35,13 @@ const Main = () => (
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Main/>
     </div>
   );
 }
 
 export default App;
+
+/*
+
+*/
