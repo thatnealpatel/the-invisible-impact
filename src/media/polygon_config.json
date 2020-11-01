@@ -3,8 +3,8 @@
     "color": {
       "value": "#2b3ecc"
     },
-    "position": "1% 1%",
-    "repeat": "repeat",
+    "position": "50% 50%",
+    "repeat": "no-repeat",
     "size": "cover"
   },
   "fpsLimit": 60,
