@@ -4,6 +4,9 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
+import AboutUs from "./components/spa/AboutUs";
+import WhatIsEJ from "./components/spa/WhatIsEJ";
+import OurProject from "./components/spa/OurProject";
 
 import ReactFullPage from '@fullpage/react-fullpage';
 
@@ -12,7 +15,7 @@ const SPA = () => (
     debug
     navigation = {true}
     navigationPosition = {'left'}
-    navigationTooltips = {['', 'About', 'Schedule', 'FAQ', 'COVID FAQ', 'Sponsors']}
+    navigationTooltips = {['', 'About Us', 'What Is EJ?', 'Our Project', 'FILL', 'FILL']}
     licenseKey = {'OPEN-SOURCE-GPLV3-LICENSE'}
     scrollingSpeed = {1000}
     // anchors={['splash', 'about', 'schedule', 'faq', 'covidfaq', 'sponsors']}
@@ -20,6 +23,9 @@ const SPA = () => (
     render={comp => (
         <ReactFullPage.Wrapper>
           <Splash/>
+          <AboutUs/>
+          <WhatIsEJ/>
+          <OurProject/>
         </ReactFullPage.Wrapper>
     )}
   />

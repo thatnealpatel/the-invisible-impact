@@ -1,35 +1,11 @@
-.splash {
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
 
+body {
+  font-family: "Biryani" !important;
+  margin: 0;
 }
 
-#tsparticles {
-  height: 100vh;
-  width: 100vw;
-}
-
-.splash-text {
-  position: absolute;
-  top: 50%;  /* position the top  edge of the element at the middle of the parent */
-  left: 50%; /* position the left edge of the element at the middle of the parent */
-  transform: translate(-50%, -50%);
-  color: white;
-  font-weight: bold;
-  font-size: 4em;
-  text-align: center;
-}
-
-.prompt-text {
-  position: absolute;
-  top: 50%;  /* position the top  edge of the element at the middle of the parent */
-  left: 50%; /* position the left edge of the element at the middle of the parent */
-  transform: translate(-50%, -50%);
-  color: white;
-  font-weight: bold;
-  font-size: 4em;
-  text-align: center;
-}
-
-
+/* Required for blinking animation for react-typist to work. */
 .Typist .Cursor {
   display: inline-block; }
   .Typist .Cursor--blinking {
@@ -43,4 +19,168 @@
     opacity: 0; }
   100% {
     opacity: 1; } 
+}
+
+/* User defined styles. */
+
+
+/* GLOBAL */
+#tsparticles {
+  height: 100vh;
+  width: 100vw;
+}
+
+#fp-nav ul li a span {
+  background: #fafafa !important;
+}
+
+.fp-tooltip {
+  font-family: "Biryani" !important;
+  font-weight: 600;
+}
+
+
+/* SPLASH */
+.splash {
+
+}
+
+.splash-text {
+  width: 100vw;
+  font-family: "Biryani" !important;
+  position: absolute;
+  top: 50%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: #fafafa;
+  font-weight: 900;
+  font-size: 4em;
+  text-align: center;
+}
+
+/* QR Prompt */
+.prompt-text {
+  font-family: "Biryani" !important;
+  position: absolute;
+  top: 50%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+/* ABOUT US */
+#about-us {
+  background-color: #52c5ff;
+}
+
+#about-us-content {
+  width: 67vw;
+  margin: auto;
+}
+
+.about-us-header {
+  font-size: 4em;
+  text-align: center;
+  color: #fafafa;
+  font-weight: 100;
+}
+
+.about-us-text {
+  font-size: 2em;
+  text-align: justify;
+  color: #ededed;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .about-us-header {
+    font-size: 2em;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .about-us-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #ededed;
+  }
+}
+
+/* WHAT IS EJ? */
+#what-is-ej {
+  background-color: #2b3ecc;
+}
+
+#what-is-ej-content {
+  width: 67vw;
+  margin: auto;
+}
+
+.what-is-ej-header {
+  font-size: 4em;
+  text-align: center;
+  color: #fafafa;
+  font-weight: 100;
+}
+
+.what-is-ej-text {
+  font-size: 2em;
+  text-align: justify;
+  color: #ededed;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .what-is-ej-header {
+    font-size: 2em;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .what-is-ej-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #ededed;
+  }
+}
+
+/* OUR PROJECT */
+#our-project {
+  background-color: #52c5ff;
+}
+
+#our-project-content {
+  width: 67vw;
+  margin: auto;
+}
+
+.our-project-header {
+  font-size: 4em;
+  text-align: center;
+  color: #fafafa;
+  font-weight: 100;
+}
+
+.our-project-text {
+  font-size: 2em;
+  text-align: justify;
+  color: #ededed;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .our-project-header {
+    font-size: 2em;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .our-project-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #ededed;
+  }
 }
