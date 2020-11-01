@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Typist from "react-typist";
 import ParticleBackground from "./ParticleBackground";
 
