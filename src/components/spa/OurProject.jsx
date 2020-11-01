@@ -4,9 +4,9 @@ import Typist from "react-typist";
 const cursorProps = {blink: true};
 
 const background = "Athens suffers from its share of environmental issues\
-surrounding plastic use, water and air pollution,\
+surrounding plastic use, pollution,\
 littering, and a general sense of environmental\
-disregard for both students and locals alike. In many\
+disregard. In many\
 ways, these issues occur at the hands of the university\
 system, which seeks to develop and gentrify the\
 community in pursuit of its own capitalist goals.";
