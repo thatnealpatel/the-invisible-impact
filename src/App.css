@@ -66,9 +66,24 @@ body {
   left: 50%; 
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 4em;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .prompt-text {
+    width: 90vw;
+    font-family: "Biryani" !important;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+}
 }
 
 /* ABOUT US */
