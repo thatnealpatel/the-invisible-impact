@@ -7,6 +7,11 @@ import ParticleBackground from "./ParticleBackground";
 const cursorProps = {blink: true};
 
 const Splash = () => {
+
+  // useEffect(() => {
+  //   hotjar.initialize(2074195, 6);
+  // }, [])
+  
   return (
     <section id="splash" className="splash section">
       <ParticleBackground/>

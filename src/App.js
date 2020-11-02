@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactFullPage from '@fullpage/react-fullpage';
 import { Switch, Route } from 'react-router-dom';
-import { hotjar } from 'react-hotjar';
-
 import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
 import AboutUs from "./components/spa/AboutUs";
@@ -41,8 +39,6 @@ const Main = () => (
 );
 
 function App() {
-  hotjar.initialize(2074195,6);
-
   return (
     <div className="App">
       <Main/>
@@ -51,7 +47,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-*/
