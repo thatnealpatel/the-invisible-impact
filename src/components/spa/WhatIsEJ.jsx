@@ -3,7 +3,7 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
-const ejIs = "is the fair treatment and meaningful involvement of all\
+const ejIs = "is the fair treatment and meaningful involvement of all \
 people regardless of race, color, national origin, or \
 income, with respect to the development, \
 implementation, and enforcement of environmental \
