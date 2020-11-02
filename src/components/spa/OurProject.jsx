@@ -3,7 +3,7 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
-const background = "Athens suffers from its share of environmental issues\
+const background = "Athens suffers from its share of environmental issues \
 surrounding plastic use, pollution, \
 littering, and a general sense of environmental \
 disregard. In many \
