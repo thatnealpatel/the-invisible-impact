@@ -1,14 +1,16 @@
 import React from 'react';
+import ReactFullPage from '@fullpage/react-fullpage';
 import { Switch, Route } from 'react-router-dom';
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import { hotjar } from 'react-hotjar';
+
 import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
 import AboutUs from "./components/spa/AboutUs";
 import WhatIsEJ from "./components/spa/WhatIsEJ";
 import OurProject from "./components/spa/OurProject";
 
-import ReactFullPage from '@fullpage/react-fullpage';
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const SPA = () => (
   <ReactFullPage
@@ -39,6 +41,8 @@ const Main = () => (
 );
 
 function App() {
+  hotjar.initialize(2074195,6);
+
   return (
     <div className="App">
       <Main/>
