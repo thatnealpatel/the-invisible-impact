@@ -12,7 +12,7 @@ questions into the world of academia to better \
 examine university impact on local communities, \
 bringing environmental justice and it's \
 intersectionality of influence to the forefront of \
-student's minds";
+student's minds.";
 
 const AboutUs = () => {
   return (
