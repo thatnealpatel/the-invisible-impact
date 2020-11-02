@@ -10,7 +10,7 @@ communities about the impact of environmental justice.";
 const mission = "Our goal is to democratize and disseminate \
 questions into the world of academia to better \
 examine university impact on local communities, \
-bringing environmental justice and it's \
+bringing environmental justice and its \
 intersectionality of influence to the forefront of \
 students' minds.";
 
