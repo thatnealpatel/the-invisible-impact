@@ -73,6 +73,12 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .splash-text {
+    font-size: 2.5em;
+    padding-left: .4em;
+  }
+
   .prompt-text {
     width: 90vw;
     font-family: "Biryani" !important;
@@ -84,7 +90,7 @@ body {
     font-weight: 700;
     font-size: 2.5em;
     text-align: center;
-}
+  }
 }
 
 /* ABOUT US */
