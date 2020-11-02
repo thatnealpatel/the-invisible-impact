@@ -3,7 +3,7 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
-const aboutUsText = "We are an student run, art-devoted team of students \
+const aboutUsText = "We are an student run, art-devoted team \
 dedicated to exploring the impact of artistic instillation in educating \
 communities about the impact of environmental justice.";
 
