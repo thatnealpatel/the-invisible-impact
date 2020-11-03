@@ -3,10 +3,10 @@ import ParticleBackground from "./spa/ParticleBackground";
 import { hotjar } from 'react-hotjar';
 
 const prompts = {
-  1: "How do you think you could improve your impact on the ecological system of Athens? [1]",
-  2: "What do you think communities can do to increase the environmental viability of their area? [2]",
+  1: "Who should bear the greatest responsibility in repairing ecosystems and lives damaged by environmental problems? [1]",
+  2: "How do you see yourself becoming involved in environmental justice beyond acts of consumption (e.g. buying 'sustainable' products)? [2]",
   3: "What frustrates you about environmental justice? [3]",
-  4: "Do you think the government is holding up its end of the bargain in relation to environmental justice? [4]",
+  4: "What should our top environmental concern be? [4]",
 };
 
 const Qr = () => {
