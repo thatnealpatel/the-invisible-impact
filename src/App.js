@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactFullPage from '@fullpage/react-fullpage';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Splash from "./components/spa/Splash";
 import Qr from "./components/Qr";
 import AboutUs from "./components/spa/AboutUs";
@@ -34,7 +34,7 @@ const SPA = () => (
 const Main = () => (
   <Switch>
     <Route exact path='/' component={SPA}></Route>
-    <Route exact path='/qr' component={Qr}></Route>
+    <Route exact path='/qr'><Redirect to='/'/></Route>
   </Switch>
 );
 
