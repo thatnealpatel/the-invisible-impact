@@ -58,6 +58,19 @@ body {
   text-align: center;
 }
 
+.splash-sub-text {
+  width: 100vw;
+  font-family: "Biryani" !important;
+  position: absolute;
+  top: 55%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: #fafafa;
+  font-weight: 900;
+  font-size: 2em;
+  text-align: center;
+}
+
 /* QR Prompt */
 .prompt-text {
   width: 85vw;
@@ -77,6 +90,11 @@ body {
   .splash-text {
     font-size: 2.5em;
     padding-left: .4em;
+  }
+
+  .splash-sub-text {
+    font-size: 1em;
+    top: 60%;
   }
 
   .prompt-text {

@@ -5,6 +5,7 @@ import ParticleBackground from "./ParticleBackground";
 // className="title jumbotron jumbotron-fluid bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
 
 const cursorProps = {blink: true};
+const subtitleProps = {blink: false, show: false};
 
 const Splash = () => {
 
@@ -20,6 +21,13 @@ const Splash = () => {
           {"The Invisible Impact "}
          </Typist>
       </div>
+      <div className="splash-sub-text">
+        <Typist  cursor={subtitleProps}>
+          <Typist.Delay ms={2500} />
+          {"Gallery Coming Soon... "}
+         </Typist>
+      </div>
+      
     </section>
   );
 };
