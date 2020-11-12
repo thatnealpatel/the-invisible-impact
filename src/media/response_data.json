@@ -114,14 +114,14 @@
       "waste": 10,
       "community": 4, 
       "all": 21
-    },
+    }
   },
 
   "questions": {
     "q1": "Who should bear the greatest responsibility in repairing ecosystems and lives damaged by environmental problems?",
     "q2": "How do you see yourself becoming involved in environmental justice beyond acts of consumption (e.g. buying 'sustainable' products)?",
     "q3": "What frustrates you about environmental justice?",
-    "q4": "What should our top environmental concern be?",
+    "q4": "What should our top environmental concern be?"
     
   }
 }
