@@ -111,9 +111,52 @@ body {
   }
 }
 
+
+
+/* GALLERY */
+#gallery {
+  background-color: #52b5ff;
+}
+
+#gallery-content {
+  width: 67vw;
+  margin: auto;
+}
+
+.gallery-header {
+  font-size: 4em;
+  margin-bottom: 75vh;
+  text-align: center;
+  color: #fafafa;
+  font-weight: 100;
+}
+
+.gallery-text {
+  font-size: 2em;
+  text-align: justify;
+  color: #ededed;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery-header {
+    font-size: 2em;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .gallery-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #ededed;
+  }
+}
+
+
+
 /* ABOUT US */
 #about-us {
-  background-color: #52b5ff;
+  background-color: #2b3ecc;
 }
 
 #about-us-content {
@@ -151,7 +194,7 @@ body {
 
 /* WHAT IS EJ? */
 #what-is-ej {
-  background-color: #2b3ecc;
+  background-color: #52b5ff;
 }
 
 #what-is-ej-content {
@@ -189,7 +232,7 @@ body {
 
 /* OUR PROJECT */
 #our-project {
-  background-color: #52b5ff;
+  background-color: #2b3ecc;
 }
 
 #our-project-content {
