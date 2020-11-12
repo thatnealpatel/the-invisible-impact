@@ -1,6 +1,6 @@
 import React from "react";
 import Typist from "react-typist";
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, DotGroup } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 
@@ -33,7 +33,7 @@ class Gallery extends React.Component {
                 naturalSlideHeight={4}
                 visibleSlides={1}
                 infinite={true}
-                totalSlides={13}
+                totalSlides={15}
               >
             <Slider>
               {images.map(
