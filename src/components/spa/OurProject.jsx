@@ -3,6 +3,7 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
+// eslint-disable-next-line
 const background = "Athens suffers from its share of environmental issues \
 surrounding plastic use, pollution, \
 littering, and a general sense of environmental \
@@ -11,6 +12,7 @@ ways, these issues occur at the hands of the university \
 system, which seeks to develop and gentrify the \
 community in pursuit of its own capitalist goals.";
 
+// eslint-disable-next-line
 const goal = "By encouraging our fellow students and faculty to \
 acknowledge their contribution to the problem, we \
 hope to change the mentality surrounding waste at \

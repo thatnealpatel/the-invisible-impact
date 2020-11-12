@@ -3,12 +3,14 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
+// eslint-disable-next-line
 const ejIs = "is the fair treatment and meaningful involvement of all \
 people regardless of race, color, national origin, or \
 income, with respect to the development, \
 implementation, and enforcement of environmental \
 laws, regulations, and policies.";
 
+// eslint-disable-next-line
 const invisibleImpact = "With one of the largest population densities and wealth \
 distributions in the city of Athens, UGA bears a \
 particular burden of influence on the effect it has over \

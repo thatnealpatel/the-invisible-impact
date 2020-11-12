@@ -3,10 +3,12 @@ import Typist from "react-typist";
 
 const cursorProps = {blink: true};
 
+// eslint-disable-next-line
 const aboutUsText = "We are a student run, art-devoted team \
 dedicated to exploring the impact of artistic instillation in educating \
 communities about the impact of environmental justice.";
 
+// eslint-disable-next-line
 const mission = "Our goal is to democratize and disseminate \
 questions into the world of academia to better \
 examine university impact on local communities, \
