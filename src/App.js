@@ -2,7 +2,7 @@ import React from 'react';
 import ReactFullPage from '@fullpage/react-fullpage';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Splash from "./components/spa/Splash";
-import Qr from "./components/Qr";
+// import Qr from "./components/Qr"; // only needed during intervention.
 import Gallery from "./components/spa/Gallery";
 import AboutUs from "./components/spa/AboutUs";
 import WhatIsEJ from "./components/spa/WhatIsEJ";
