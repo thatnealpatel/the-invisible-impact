@@ -125,7 +125,6 @@ body {
 
 .gallery-header {
   font-size: 4em;
-  margin-bottom: 75vh;
   text-align: center;
   color: #fafafa;
   font-weight: 100;
@@ -136,6 +135,70 @@ body {
   text-align: justify;
   color: #ededed;
   font-weight: 600;
+}
+
+.carousel-img-container {
+  height: 100%;
+  width: 100%;
+  position: relative; /* for centering vertically in the div*/
+}
+
+#gallery img {
+  width: 100%;
+  /* for centering vertically: */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+
+}
+
+.dot-div {
+  position: relative;
+}
+
+.carousel-dots {
+  /* for centering horizontally: */
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.carousel__dot {
+  margin-top: 2em;
+  background: #ddd;
+  border: none;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-left: 3px;
+  box-shadow: inset 0 1px 1px 0 #999;
+}
+
+.carousel__dot:hover {
+  border: none;
+  background: #bbb;
+  cursor: pointer;
+  box-shadow: inset 0 1px 1px 0 #777;
+}
+
+.carousel__dot:active {
+  outline: none;
+  border: none;
+}
+
+.carousel__dot--selected {
+  background: #fff;
+}
+
+.carousel-back {
+
+}
+
+.carousel-next {
+
 }
 
 @media only screen and (max-width: 480px) {

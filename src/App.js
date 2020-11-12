@@ -16,7 +16,7 @@ const SPA = () => (
     debug
     navigation = {true}
     navigationPosition = {'left'}
-    navigationTooltips = {['', 'About Us', 'What Is EJ?', 'Our Project', 'FILL', 'FILL']}
+    navigationTooltips = {['', 'Gallery', 'The Data', 'About Us', 'What Is EJ?', 'Our Project', 'FILL', 'FILL']}
     licenseKey = {'OPEN-SOURCE-GPLV3-LICENSE'}
     scrollingSpeed = {1000}
     // anchors={['splash', 'about', 'schedule', 'faq', 'covidfaq', 'sponsors']}
