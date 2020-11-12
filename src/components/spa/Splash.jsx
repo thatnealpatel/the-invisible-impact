@@ -24,7 +24,7 @@ const Splash = () => {
       <div className="splash-sub-text">
         <Typist  cursor={subtitleProps}>
           <Typist.Delay ms={2500} />
-          {"Gallery Coming Soon... "}
+          {"ARED 3070 "}
          </Typist>
       </div>
       
