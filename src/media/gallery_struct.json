@@ -1,0 +1,86 @@
+{
+	"day1": {
+    "q1": {
+      "equal": 2,
+      "govt/corp": 6,
+      "all": 8
+    },
+    "q2": {
+      "career/gov": 3,
+      "individual": 7,
+      "other": 0,
+      "all": 10
+    },
+    "q3": {
+      "accountability": 4,
+      "mindfulness": 1,
+      "community": 0,
+      "other": 0,
+      "all": 5
+    },
+    "q4": {
+      "climate": 5,
+      "waste": 3,
+      "community": 0, 
+      "all": 8
+    },
+    "day1_total": 31
+  },
+
+  "day2": {
+    "q1": {
+      "equal": 0,
+      "govt/corp": 1,
+      "all": 1
+    },
+    "q2": {
+      "career/gov": 0,
+      "individual": 1,
+      "other": 0,
+      "all": 1
+    },
+    "q3": {
+      "accountability": 3,
+      "mindfulness": 0,
+      "community": 1,
+      "other": 0,
+      "all": 4
+    },
+    "q4": {
+      "climate": 2,
+      "waste": 0,
+      "community": 1, 
+      "all": 3
+    },
+    "day2_total": 9
+  },
+
+  "day3": {
+    "q1": {
+      "equal": 7,
+      "govt/corp": 2,
+      "all": 9
+    },
+    "q2": {
+      "career/gov": 5,
+      "individual": 4,
+      "other": 1,
+      "all": 10
+    },
+    "q3": {
+      "accountability": 4,
+      "mindfulness": 1,
+      "community": 0,
+      "viability": 4,
+      "other": 1,
+      "all": 10
+    },
+    "q4": {
+      "climate": 0,
+      "waste": 7,
+      "community": 3, 
+      "all": 10
+    },
+    "day2_total": 39
+  }
+}
