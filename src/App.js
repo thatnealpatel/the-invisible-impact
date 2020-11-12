@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Splash from "./components/spa/Splash";
 // import Qr from "./components/Qr"; // only needed during intervention.
 import Gallery from "./components/spa/Gallery";
+import TheData from "./components/spa/TheData";
 import AboutUs from "./components/spa/AboutUs";
 import WhatIsEJ from "./components/spa/WhatIsEJ";
 import OurProject from "./components/spa/OurProject";
@@ -25,6 +26,7 @@ const SPA = () => (
         <ReactFullPage.Wrapper>
           <Splash/>
           <Gallery />
+          <TheData />
           <AboutUs/>
           <WhatIsEJ/>
           <OurProject/>

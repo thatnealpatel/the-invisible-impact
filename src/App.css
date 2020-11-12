@@ -217,9 +217,51 @@ body {
 
 
 
+
+/* THE DATA */
+#thedata {
+  background-color: #2b3ecc;
+}
+
+#thedata-content {
+  width: 67vw;
+  margin: auto;
+}
+
+.thedata-header {
+  font-size: 4em;
+  text-align: center;
+  color: #fafafa;
+  font-weight: 100;
+}
+
+.thedata-text {
+  font-size: 2em;
+  text-align: justify;
+  color: #ededed;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .thedata-header {
+    font-size: 2em;
+    text-align: center;
+    color: #fafafa;
+  }
+
+  .thedata-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #ededed;
+  }
+}
+
+
+
 /* ABOUT US */
 #about-us {
-  background-color: #2b3ecc;
+  background-color: #52b5ff;
 }
 
 #about-us-content {
@@ -257,7 +299,7 @@ body {
 
 /* WHAT IS EJ? */
 #what-is-ej {
-  background-color: #52b5ff;
+  background-color: #2b3ecc;
 }
 
 #what-is-ej-content {
@@ -295,7 +337,7 @@ body {
 
 /* OUR PROJECT */
 #our-project {
-  background-color: #2b3ecc;
+  background-color: #52b5ff;
 }
 
 #our-project-content {
