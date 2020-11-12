@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="ARED3070" src="src/media/turn_over_a_new_leaf_me.jpg" width="75%"/>
+  <img alt="ARED3070" src="src/media/intervention-pics/day_one_prep_aesthetic.jpg" width="75%"/>
 </p>
 
 # ARED 3070 - Group 2 : The Invisible Impact
