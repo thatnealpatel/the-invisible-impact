@@ -1,5 +1,6 @@
 {
 	"day1": {
+    "location": "The Arch",
     "q1": {
       "equal": 2,
       "govt/corp": 6,
@@ -15,6 +16,7 @@
       "accountability": 4,
       "mindfulness": 1,
       "community": 0,
+      "viability": 0,
       "other": 0,
       "all": 5
     },
@@ -28,6 +30,7 @@
   },
 
   "day2": {
+    "location": "The SLC",
     "q1": {
       "equal": 0,
       "govt/corp": 1,
@@ -43,6 +46,7 @@
       "accountability": 3,
       "mindfulness": 0,
       "community": 1,
+      "viability": 0,
       "other": 0,
       "all": 4
     },
@@ -56,6 +60,7 @@
   },
 
   "day3": {
+    "location": "Tate/MLC",
     "q1": {
       "equal": 7,
       "govt/corp": 2,
@@ -82,5 +87,41 @@
       "all": 10
     },
     "day3_total": 39
+  },
+
+  "dayall": {
+    "q1": {
+      "equal": 9,
+      "govt/corp": 9,
+      "all": 18
+    },
+    "q2": {
+      "career/gov": 8,
+      "individual": 12,
+      "other": 1,
+      "all": 21
+    },
+    "q3": {
+      "accountability": 11,
+      "mindfulness": 2,
+      "community": 1,
+      "viability": 4,
+      "other": 1,
+      "all": 19
+    },
+    "q4": {
+      "climate": 7,
+      "waste": 10,
+      "community": 4, 
+      "all": 21
+    },
+  },
+
+  "questions": {
+    "q1": "Who should bear the greatest responsibility in repairing ecosystems and lives damaged by environmental problems?",
+    "q2": "How do you see yourself becoming involved in environmental justice beyond acts of consumption (e.g. buying 'sustainable' products)?",
+    "q3": "What frustrates you about environmental justice?",
+    "q4": "What should our top environmental concern be?",
+    
   }
 }
