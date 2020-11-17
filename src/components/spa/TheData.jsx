@@ -1,7 +1,11 @@
 import React from "react";
 import Typist from "react-typist";
 import { Bar, Radar } from "react-chartjs-2";
-import responseSchema from "../../media/response_data.json";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import 'react-tabs/style/react-tabs.css';
+import { useMediaQuery } from 'react-responsive'
+
+// import responseSchema from "../../media/response_data.json";
 
 const cursorProps = {blink: true};
 
@@ -33,6 +37,7 @@ const barData = {
 
 const barOptions = {
   responsive: true,
+  // maintainAspectRatio: false,
   showLines: false,
   legend: {
     labels: {
@@ -100,6 +105,7 @@ const radarData = {
 
 const radarOptions = {
   responsive: true,
+  // maintainAspectRatio: false,
   legend: {
     labels: {
       fontColor: "#fefefe",
@@ -123,9 +129,17 @@ const radarOptions = {
   },
 }
 
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 1200 })
+  return isDesktop ? children : null
+}
+
+const Tablet = ({ children }) => {
+  const isTablet = useMediaQuery({ minWidth: 42, maxWidth: 1199 })
+  return isTablet ? children : null
+}
+
 const TheData = () => {
-
-
 
   return (
     <section id="thedata" className="thedata section">
@@ -136,15 +150,36 @@ const TheData = () => {
            </Typist>
         </div>
         <div className="thedata-container">
-          <div className="bar-chart">
-            <Bar data={barData} options={barOptions} />
-          </div>
-          <br></br><br></br>
-          <div className="radar-chart">
-            <Radar data={radarData} options={radarOptions} />
-          </div>
+          <Tablet>
+            <div className="bar-chart">
+              <Bar data={barData} options={barOptions} />
+            </div>
+            <div className="radar-chart">
+              <Radar data={radarData} options={radarOptions} />
+            </div>
+          </Tablet>
+          <Desktop>
+            <Tabs>
+              <TabList>
+                <Tab>Bar Chart</Tab>
+                <Tab>Radar Chart</Tab>
+              </TabList>
+              <TabPanel>
+                <div className="bar-chart">
+                  <Bar data={barData} options={barOptions} />
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="radar-chart">
+                  <Radar data={radarData} options={radarOptions} />
+                </div>
+              </TabPanel>
+            </Tabs>
+          </Desktop>
         </div>
+
        </div>
+
     </section>
   );
 };
