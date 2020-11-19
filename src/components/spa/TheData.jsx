@@ -3,7 +3,7 @@ import Typist from "react-typist";
 import { Bar, Radar } from "react-chartjs-2";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery, isMobile } from 'react-responsive'
 
 // import responseSchema from "../../media/response_data.json";
 
@@ -105,7 +105,7 @@ const radarData = {
 
 const radarOptions = {
   responsive: true,
-  // maintainAspectRatio: false,
+  maintainAspectRatio: !isMobile,
   legend: {
     labels: {
       fontColor: "#fefefe",

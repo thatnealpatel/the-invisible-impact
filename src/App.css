@@ -243,6 +243,15 @@ body {
 
 
 /* THE DATA */
+
+.react-tabs__tab {
+  color: #fafafa;
+}
+
+.react-tabs__tab--selected {
+  color: black;
+}
+
 #thedata {
   background-color: #2b3ecc;
 }
