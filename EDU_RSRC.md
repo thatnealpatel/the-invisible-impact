@@ -11,9 +11,53 @@ In one form or another, it will become paramount to teach students about program
 
 This resource is meant to be a lightweight guide that assumes very little foundational knowledge. However, it will be written in a manner that would be suitable to the future generations. Perhaps it could even act as a time capsule, standing the test of time.  
 
-If I was a maths teacher writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 5 pencils from 2 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
+If I was a writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 5 pencils from 2 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
 
 I digress.
 
+# Purpose
+
+This educational resource will serve as a from-scratch how-to guide to building a digital intervention. In addition, it will (hopefully) allow those with very little experience to experience the thrill of tweaking and building something of their own.
+
+# Crash Course
+
+### What Is Git?
+
+Imagine if you are working on an extremely complex document--a study guide, potentially with many other people. It would become annoying if you were being worked over, or if you halted our own work because someone was working on a piece of the document you also needed to work on.
+
+In addition, what if someone makes a mistake? What if you make a mistake? What if something gets deleted that you needed? What if another document that linked to your document was deleted, breaking the connection?
+
+This is where Git comes in. Git is what is known as a **version control system**, or VCS for short. Git will take all of your project documents and put them into something computer scientists like to call a tree.
+
+<p align="center"><img src="public/edu-rsrc/git-tree.svg"></p>
+
+You might be familiar with `Control-S` or `Command-S` for saving documents. Basic save operations create lines, not trees. You are able to undo and redo, going backwards and forwards respectively, in your document. However, this is not always helpful; imagine a situation where Jessica edits something you wrote. However, Jessica made a mistake, and you cannot undo her mistake since you did not make it. We clearly need a more robust "save" system.
+
+This is where Git comes in. The tree allows you to jump back and forth through time, viewing your project and its state at different points. It even allows you to seperate out who did what, when, and why.
+
+In Git, you do not `save`; instead, you `commit`. 
+
+When you make a commit, it's customary to include a message: `git commit my_study_guide -m "added a section for how to take derivatives"`. Here, we issue a command to Git, telling it that we want to make a commit (think save) to `my_study_guide` with a `-m`essage which contains a brief description of what we did.
+
+Where do we issue these commands? Who is Git? You can think of Git as a worker ready to take instructions at will; however, it will only accept a certain type of format for its instructions, otherwise it does not know what to do. This worker lives in your computer!
+
+Using what is known as the Terminal, we can issue these commands. Remember a time when you've seen a bunch of random scrolling text on a black screen, typically portrayed as hacking? That's a terminal!
+
+In fact, as I develop this resource, I am using git to save my changes!
+
+
+
 # Assumptions
 
+### Tools
+
+This guide assumes experience with:
+
+1. the command-line tool `git`.
+2. the command-line tool `npm`.
+3. basic file and directory structures.
+4. GitHub
+
+### Knowledge
+
+In order 
