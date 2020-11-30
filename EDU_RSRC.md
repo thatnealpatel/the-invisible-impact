@@ -19,7 +19,15 @@ I digress.
 
 This educational resource will serve as a from-scratch how-to guide to building a digital intervention. In addition, it will (hopefully) allow those with very little experience to experience the thrill of tweaking and building something of their own.
 
-# Crash Course
+# Crash Course To The 21.5<sup>st</sup> Century
+
+### Files, Folders, and more!
+
+On your computer, everything can be broken down into two atomic types: files and folders.
+
+Folders contain other folders and files, right? Folders do contain those things; however, as newly annointed 21.5<sup>st</sup> century students, we throw out the 20<sup>th</sup> century notion of folders. We more accurately call these things **directories**, mainly because they index other directories and files.
+
+Now, files contain data that might include instructions for your computer to open Netflix and continue the latest episode of *New Girl*, or it might pull up the PDF rubric for an assignment. While it is not important to understand for this resource, technically, directories are just files with the locations of other files. Everything is a file! Yay!
 
 ### What Is Git?
 
@@ -45,19 +53,6 @@ Using what is known as the Terminal, we can issue these commands. Remember a tim
 
 In fact, as I develop this resource, I am using git to save my changes!
 
+<p align="center"><img src="public/edu-rsrc/git-commit.png"></p>
 
-
-# Assumptions
-
-### Tools
-
-This guide assumes experience with:
-
-1. the command-line tool `git`.
-2. the command-line tool `npm`.
-3. basic file and directory structures.
-4. GitHub
-
-### Knowledge
-
-In order 
+I know it looks scary, but I assure you it's easier than it looks!
