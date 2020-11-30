@@ -1,7 +1,4 @@
-<p style="font-weight: 900; font-size: 3em; margin-bottom: -.25em;" align="center">ARED 3070: Education Resource</p>
-<p style="font-weight: 900; font-size: 2em;" align="center">A Guide For Students In The 21.5<sup>st</sup> Century</p>
-
-<p style="font-weight: 500; font-size: 1.5em" align="center">Neal Patel</p>
+<p align="center"><img src="public/edu-rsrc/header.png"></p>
 
 # Introduction
 
