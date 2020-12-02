@@ -70,3 +70,16 @@ For example, if I am creating a simple single-page application (SPA) website, I 
 
 ### What is NPM?
 
+Now, as someone who is well-versed in git, you might be curious as to what exactly it can do beyond saving. Well, GitHub allows for the upload and sharing of open source programs. These are typically managed by many people using git on their local machines. GitHub makes it possible to upload these projects to a centralized location. 
+
+Any public GitHub project is typically considered Open Source and Copyleft (INSERT LINK HERE). This means that you can use this command-line tool to download other people's work and modify it to your heart's content, granted you follow Copyleft guidelines. It also allows for an easy way to vet programs to make sure that they are not malicious. Since the code is 100% visible to the public, it would take monumental effort (nearly infinte) to obscure and disseminate malicious code. 
+
+So, what does this have to do with NPM? Well, we need to backup to answer that.
+
+Most of the web today uses a scripting langauge called JavaScript. Why? It makes creation of complex applications efficient, thus allowing for highly responsive and functional interfaces. Almost any site that you use is built using JavaScript. The days of pure HTML and CSS are nearly over (unfortunately, depending on who you ask).
+
+Now, would it not be dandy if you could just start building a website in JavaScript without doing all the same repetitve groundwork that it takes to build a website? Well that's where the **N**ode **P**ackage **M**anager comes in!
+
+Node is (DEF WITH LINK).
+
+Note: alternatives to NPM exist, such as yarn (LINK HERE).
