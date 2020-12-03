@@ -2,7 +2,7 @@
 
 # Introduction
 
-If you are reading this as a PDF, it is best viewed in the original rendered source: https://github.com/nealdotpy/the-invisible-impact/blob/dev/EDU_RSRC.md.
+**If you are reading this as a PDF, it is best viewed in the original rendered source: [github.com/nealdotpy/the-invisible-impact/blob/dev/EDU_RSRC.md](https://github.com/nealdotpy/the-invisible-impact/blob/dev/EDU_RSRC.md).**
 
 Creating simple, yet compelling messages is becoming increasingly difficult to accomplish in a world filled with distractions. Even more so, technological literacy is accelerating. I firmly believe that within the next twenty years or so we will see the widespread acceptance of computer science fundamentals on a grade school level.
 
