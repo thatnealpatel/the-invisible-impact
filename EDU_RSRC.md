@@ -184,7 +184,7 @@ It's atypical that projects are *extremely* well organized. However, it is of th
 
 Inside there, I further break up my directories by organizing all media files together in a `media` directory, and furthermore, all the components of the website into `components`. Lastly, all the components that are directly related to the single-page application (SPA), are contained within `spa`. The `Qr.jsx` file dangles outside since it is hosted on its on page. 
 
-In addition, you'll find some other files starting with `App` or `index`. These are responsible for packaging up all your componenets into a format that all website servers can understand.
+In addition, you'll find some other files starting with `App` or `index`. These are responsible for packaging up all your components into a format that all website servers can understand.
 
 Here is how you reference files on a **path**: `Gallery.jsx` is a special type of JavaScript file that is located on the path `./src/components/spa/Gallery.jsx`. Easy, right?
 
