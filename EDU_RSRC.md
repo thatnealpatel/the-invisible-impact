@@ -35,9 +35,10 @@ Folders contain other folders and files, right? Folders do contain those things;
 
 Now, files contain data that might include instructions for your computer to open Netflix and continue the latest episode of *New Girl*, or it might pull up the PDF rubric for an assignment. While it is not important to understand for this resource, technically, directories are just files with the locations of other files. Everything is a file! Yay!
 
-<p align="center"><img src="public/edu-rsrc/git-logo.png"></p>
 
 ### What Is Git?
+
+<p align="center"><img src="public/edu-rsrc/git-logo.png"></p>
 
 #### Background
 
@@ -91,11 +92,9 @@ For example, if I am creating a simple single-page application (SPA) website, I 
 **In summation,** git is a useful tool that empowers collaboration (with yourself or others) without sacrificing precision or control. It is quite literally what makes the world go round. That is not a hyperbole.
 
 
-<p align="center"><img src="public/edu-rsrc/npm-logo.svg"></p>
-
-
 ### What is NPM?
 
+<p align="center"><img src="public/edu-rsrc/npm-logo.svg"></p>
 
 #### Background 
 Now, as someone who is well-versed in git, you might be curious as to what exactly it can do beyond saving. Well, GitHub allows for the upload and sharing of open source programs. These are typically managed by many people using git on their local machines. GitHub makes it possible to upload these projects to a centralized location. 
@@ -126,9 +125,10 @@ Isn't that awesome?
 
 [Here's an example](https://www.npmjs.com/package/scratch-paint) of an NPM package that allows you to directly implement a fully-functional digital canvas for painting in just a few lines of code. The page gives the viewer information about the location of source code, a demo, and a writeup for how to use the package (which developers call **documentation**).
 
+## Staging A Digital Intervention
+
 <p align="center"><a href="https://helpushelp.earth"><img src="public/edu-rsrc/splash-example.png"></a></p>
 
-## Staging A Digital Intervention
 
 ### Introduction
 
