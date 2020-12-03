@@ -224,7 +224,13 @@ You can explore the components in the `spa/` directory. As well as the `App.css`
 
 ### Making It Your Own
 
-You can add pictures to `media` and then reference them inside of the components which use them, such as `Gallery.jsx`. Understanding how to use all these complexities of the project require reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
+You can add pictures to `./src/media/useful` and then reference them inside of the components which use them, such as `Gallery.jsx`. 
+
+<p align="center"><img src="public/edu-rsrc/gallery-example.png"></p>
+
+For example, merely putting the pictures into this directory, the code I've written will automatically (automagically) grab them all and display them in a carousel view. Yay for documented, modular code.
+
+Understanding how to use all these complexities of the project require reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
 
 Documentation is always your friend. It will always be your friend. Bad developers make bad documentation. The best code is simple and reads like English!
 
