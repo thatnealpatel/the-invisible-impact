@@ -190,6 +190,10 @@ The `.` just means relative to your current directory, which if you remember, is
 Hold on, but where is the directory `the-invisible-impact` located? Well, good question. It's relative path is `~/Desktop/the-invisible-impact`. The tilde `~` character is a short-hand for `home` directory, or your logged-in user's directory. I won't go beyond that for the scope of this resource. You might keenly see that you can also refer to `Gallery.jsx` with the path: `~/Desktop/the-invisible-impact/src/components/spa/Gallery.jsx`. If you don't quite see that, I encourage you to review the preceeding paragraphs.
 
 
+<p align="center"><img src="public/edu-rsrc/happy.gif"></p>
+
+I realize these sections are text heavy, so here's some eye-candy and encouragement.
+
 Okay, so back to getting started!
 
 The project contains a file called `package.json` which tells NPM what I have already used within the project. Since you just cloned the files, you actually haven't installed the same *packages* that I have installed yet. 
@@ -214,5 +218,34 @@ Well, if you truly made it this far, I'm sure you're exhausted. I've dumped a fe
 
 As a savvy 21.5<sup>st</sup> pupil, you simply use your fancy GPT-11 JSX generator to create your website. 
 
-Just kidding, maybe? 
+Just kidding, maybe?  
+
+You can explore the components in the `spa/` directory. As well as the `App.css` for styles. You can find plenty of information online about how to write and manipulate these components. The purpose of this guide is to bring you up to speed to understanding what all this even is.
+
+### Making It Your Own
+
+You can add pictures to `media` and then reference them inside of the components which use them, such as `Gallery.jsx`. Understanding how to use all these complexities of the project require reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
+
+
+## Conclusion
+
+### But There's Still So Much!?
+
+Yes. There always is.
+
+Being a developer means that you know enough to do something. There is no *knowing* everything. It's impossible, unless you spend 30 years inside of the React.js environment.
+
+### Additional Resources
+
+There's many who are more well-versed than I. I have learned from many others and will continue to do so. You must as well. There is no one-man team that does it all. 
+
+ReactJS: https://reactjs.org/
+
+ReactJS Tutorial: https://reactjs.org/tutorial/tutorial.html
+
+GitHub Pages Tutorial: https://pages.github.com/
+
+ReactJS and GitHub Pages: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f 
+
+
 
