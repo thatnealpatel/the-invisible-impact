@@ -232,6 +232,22 @@ A good place to start would be looking into the NPM modules that I have already 
 
 <p align="center"><img src="public/edu-rsrc/package-examples.png"></p>
 
+As a newbie it may be difficult to understand which ones are important, the relevant ones include:
+
+* `"@fullpage/react-fullpage": "^0.1.18"`
+* `"pure-react-carousel": "^1.27.6"`
+* `"react-tsparticles": "^1.18.8"`
+* `"react-typist": "^2.0.5"`
+
+An example query (google search) might look like: `npm documentation pure-react-carousel`.
+
+Which would yield:
+
+<p align="center"><img src="public/edu-rsrc/search-example.png"></p>
+
+Clearly, I've frequented these pages before. How else would I know how to use them?
+
+
 
 ## Conclusion
 
