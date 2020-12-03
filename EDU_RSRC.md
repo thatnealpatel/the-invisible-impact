@@ -191,3 +191,28 @@ Hold on, but where is the directory `the-invisible-impact` located? Well, good q
 
 
 Okay, so back to getting started!
+
+The project contains a file called `package.json` which tells NPM what I have already used within the project. Since you just cloned the files, you actually haven't installed the same *packages* that I have installed yet. 
+
+In order to catch your system up, run: `$ npm i`. 
+
+This will begin a (depending on your internet connection) quick download of all the packages I used. The `package.json` file is automatically managed by NPM... remember how we talked it being a wrapper? This is one of the added functionalities it has! As a developer, you don't need to do anything except tell NPM to **i**nstall. Nifty, huh!
+
+**So now you're officially all set up!**
+
+When developers work on web application, they often need to see what's going on in real-time before showing the rest of the world. NPM does that for you too! 
+
+If you run `$ npm run start`, then NPM will start up the website on a local server. This means that it will use your computer to run a fake server. And it will run the code on this fake server, made just for you!
+
+In the output in the terminal, NPM will tell you how to view it! It's likely that if you navigate to `http://localhost:3000` in any browser, you will be able to see the website I made! `localhost` is the name of that fake server. 
+
+**Note:** More accurately, `localhost` is an alias for the fake, local server. The actual local server is called `127.0.0.1`. Remember, computers only understand numbers :). See [localhost](https://www.wikiwand.com/en/Localhost) for more detail. 
+
+### What's Next?
+
+Well, if you truly made it this far, I'm sure you're exhausted. I've dumped a few weeks of information and tinkering into your lap.
+
+As a savvy 21.5<sup>st</sup> pupil, you simply use your fancy GPT-11 JSX generator to create your website. 
+
+Just kidding, maybe? 
+
