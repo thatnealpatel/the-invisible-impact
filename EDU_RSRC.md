@@ -35,6 +35,8 @@ Folders contain other folders and files, right? Folders do contain those things;
 
 Now, files contain data that might include instructions for your computer to open Netflix and continue the latest episode of *New Girl*, or it might pull up the PDF rubric for an assignment. While it is not important to understand for this resource, technically, directories are just files with the locations of other files. Everything is a file! Yay!
 
+<p align="center"><img src="public/edu-rsrc/git-logo.png"></p>
+
 ### What Is Git?
 
 #### Background
@@ -87,6 +89,9 @@ For example, if I am creating a simple single-page application (SPA) website, I 
 
 
 **In summation,** git is a useful tool that empowers collaboration (with yourself or others) without sacrificing precision or control. It is quite literally what makes the world go round. That is not a hyperbole.
+
+
+<p align="center"><img src="public/edu-rsrc/npm-logo.svg"></p>
 
 
 ### What is NPM?
