@@ -126,6 +126,7 @@ Isn't that awesome?
 
 [Here's an example](https://www.npmjs.com/package/scratch-paint) of an NPM package that allows you to directly implement a fully-functional digital canvas for painting in just a few lines of code. The page gives the viewer information about the location of source code, a demo, and a writeup for how to use the package (which developers call **documentation**).
 
+<p align="center"><a href="https://helpushelp.earth"><img src="public/edu-rsrc/splash-example.png"></a></p>
 
 ## Staging A Digital Intervention
 
