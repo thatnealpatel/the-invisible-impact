@@ -228,6 +228,10 @@ You can add pictures to `media` and then reference them inside of the components
 
 Documentation is always your friend. It will always be your friend. Bad developers make bad documentation. The best code is simple and reads like English!
 
+A good place to start would be looking into the NPM modules that I have already used (found in `package.json`):
+
+<p align="center"><img src="public/edu-rsrc/package-examples.png"></p>
+
 
 ## Conclusion
 
@@ -250,5 +254,7 @@ GitHub Pages Tutorial: https://pages.github.com/
 ReactJS and GitHub Pages: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f 
 
 JavaScript for Artists: https://javascriptforartists.com/
+
+Unless otherwise stated, the information presented comes from my brain and experiences.
 
 **And as always, Google Search is your friend :)**
