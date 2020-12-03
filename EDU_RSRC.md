@@ -233,7 +233,7 @@ You can add pictures to `./src/media/useful` and then reference them inside of t
 
 For example, merely putting the pictures into this directory, the code I've written will automatically (automagically) grab them all and display them in a carousel view. Yay for documented, modular code.
 
-Understanding how to use all these complexities of the project require reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
+Understanding how to use all these complexities of the project requires reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
 
 Documentation is always your friend. It will always be your friend. Bad developers make bad documentation. The best code is simple and reads like English!
 
@@ -268,7 +268,7 @@ Being a developer means that you know enough to do something. There is no *knowi
 
 ### Additional Resources
 
-There's many who are more well-versed than I. I have learned from many others and will continue to do so. You must as well. There is no one-man team that does it all. 
+There exists many who are more well-versed than I. I have learned from many others and will continue to do so. You must as well. There is no one-man team that does it all. 
 
 ReactJS: https://reactjs.org/
 
