@@ -149,7 +149,7 @@ Granted you've set up your [SSH](https://www.wikiwand.com/en/SSH_(Secure_Shell))
 
 Navigate to the above page for `the-invisible-impact` source code repository. Take a moment to explore the `build` branch. This is **literally** what almost all websites on the internet boil down to! Crazy, I know.
 
-Even crazier, anything on the internet just boils down to a single directory on a computer somewhere called the root, or `/`, directory. Whenever you view something, you ask some program running in some root folder to give you something. Nuts, huh?
+Even crazier, anything on the internet just reduces down to a single directory on a computer somewhere called the root, or `/`, directory. Whenever you view something, you ask some program running in some root folder to give you something. Nuts, huh?
 
 Anyways, I digress (again).
 
@@ -171,7 +171,10 @@ Here's how you can download my project and get started:
 
 	* You'll notice a new directory on your desktop called `the-invisible-impact`. If you want to be really crafty, you can **l**i**s**t items in your current directory (`~/Desktop`), using `$ ls`. So, without need to look at your desktop physically, the terminal tells you what's there!
 
+	* It is also possible to clone the project over HTTPS (without SSH keys) and logging in with GitHub credentials.
+
 	* **Note:** If you are the type of person with a cluttered desktop, `ls` is not your friend.
+
 
 * So, you want to now change into that new directory you just downloaded: `$ cd the-invisible-impact`.
 
