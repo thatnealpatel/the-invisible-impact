@@ -226,6 +226,8 @@ You can explore the components in the `spa/` directory. As well as the `App.css`
 
 You can add pictures to `media` and then reference them inside of the components which use them, such as `Gallery.jsx`. Understanding how to use all these complexities of the project require reviewing documentation for all those individual *packages* (remember the npm canvas painting module example).
 
+Documentation is always your friend. It will always be your friend. Bad developers make bad documentation. The best code is simple and reads like English!
+
 
 ## Conclusion
 
@@ -247,5 +249,6 @@ GitHub Pages Tutorial: https://pages.github.com/
 
 ReactJS and GitHub Pages: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f 
 
+JavaScript for Artists: https://javascriptforartists.com/
 
-
+**And as always, Google Search is your friend :)**
