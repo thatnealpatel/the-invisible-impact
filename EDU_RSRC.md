@@ -6,15 +6,22 @@ Creating simple, yet compelling messages is becoming increasingly difficult to a
 
 In one form or another, it will become paramount to teach students about programming, binary, and other basic computer science concepts in a similar fashion to how our pupils learn about fractions, infinity, limits, etc today.
 
-This resource is meant to be a lightweight guide that assumes very little foundational knowledge. However, it will be written in a manner that would be suitable to the future generations. Perhaps it could even act as a time capsule, standing the test of time.  
+This resource is meant to be a lightweight guide that assumes very little foundational knowledge. However, it will be written in a manner that would be suitable to the future generations. Perhaps it could even act as a time capsule, standing the test of time. This guide would be easily understood by (potentially) ten year-olds in the Year 2050. How crazy?
 
-If I was a writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 2 pencils from 5 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
+**Side Note:** With the advent of language models such at [GPT-3](https://openai.com/blog/openai-api/), it's unlikely that this guide would *actually* be used in 2050. More likely, the fundamentals from the guide would hold true; however, more people will be able to [simply dictate functionality and design to an AI that would quite literally code for you](https://twitter.com/sharifshameem/status/1282676454690451457). It's already happening, and it will only get better.
+
+**Side, Side Note:** While Software Engineers are quite literally the most coveted people on the planet at the moment, even we are in danger of becoming completely extinct. Blue Collar Jobs have already died. White Collar Careers, such as accounting and law, will become exinct (or reduced by 80%) in the next 10 years. Why am I including this? I just want to cement my predictions on the internet.
+
+
+Anywho, if I was a writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 2 pencils from 5 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
 
 I digress.
 
 # Purpose
 
 This educational resource will serve as a from-scratch how-to guide to building a digital intervention. In addition, it will (hopefully) allow those with very little experience to experience the thrill of tweaking and building something of their own.
+
+If you are already familiar with Git, GitHub, NPM, and Command-Line feel free to skip the following sections and jump straight to [Staging A Digital Intervention](#staging-a-digital-intervention).
 
 # Crash Course To The 21.5<sup>st</sup> Century
 
@@ -28,6 +35,8 @@ Now, files contain data that might include instructions for your computer to ope
 
 ### What Is Git?
 
+#### Background
+
 Imagine if you are working on an extremely complex document--a study guide, potentially with many other people. It would become annoying if you were being worked over, or if you halted our own work because someone was working on a piece of the document you also needed to work on.
 
 In addition, what if someone makes a mistake? What if you make a mistake? What if something gets deleted that you needed? What if another document that linked to your document was deleted, breaking the connection?
@@ -36,11 +45,17 @@ This is where Git comes in. Git is what is known as a **version control system**
 
 <p align="center"><img src="public/edu-rsrc/git-tree.svg"></p>
 
+#### Git
+
 You might be familiar with `Control-S` or `Command-S` for saving documents. Basic save operations create lines, not trees. You are able to undo and redo, going backwards and forwards respectively, in your document. However, this is not always helpful; imagine a situation where Jessica edits something you wrote. However, Jessica made a mistake, and you cannot undo her mistake since you did not make it. We clearly need a more robust "save" system.
 
 This is where Git comes in. The tree allows you to jump back and forth through time, viewing your project and its state at different points. It even allows you to seperate out who did what, when, and why.
 
+#### Git Workflow
+
 In Git, you do not `save`; instead, you `commit`. 
+
+**Note:** you would still regularly save the file you're working on as you would. Git is not a replacement for "saving." Rather, it is a robust system that overlays it.
 
 When you make a commit, it's customary to include a message: `git commit my_study_guide -m "added a section for how to take derivatives"`. Here, we issue a command to Git, telling it that we want to make a commit (think save) to `my_study_guide` with a `-m`essage which contains a brief description of what we did.
 
@@ -54,7 +69,11 @@ In fact, as I develop this resource, I am using git to ~save~ commit my changes!
 
 I know it looks scary, but I assure you it's easier than it looks!
 
+#### More About Command-Line
+
 You might have noticed in the screenshot, my terminal tells me some additional info. For example, `neal:sus-and-env` lets me know that the current user is me, neal! It also tells me that I am currently executing my commands in a directory called `sus-and-env`. Additionally, `git:dev` lets me know that I am currently in a git-enabled directory, and my current **branch** is called `dev`, which is short for development.
+
+#### Branching
 
 Branching is quite literally what is sounds like! We talked about how our VCS is a tree! Well, we call it a tree because it has branches! Now many philosophies exist for *how* your branches should be set up. Some people will assign a branch to each person's work. Other systems will assign branches based on what is being worked on, regardless of how many people are working on it. 
 
@@ -70,16 +89,41 @@ For example, if I am creating a simple single-page application (SPA) website, I 
 
 ### What is NPM?
 
+
+#### Background 
 Now, as someone who is well-versed in git, you might be curious as to what exactly it can do beyond saving. Well, GitHub allows for the upload and sharing of open source programs. These are typically managed by many people using git on their local machines. GitHub makes it possible to upload these projects to a centralized location. 
 
-Any public GitHub project is typically considered Open Source and Copyleft (INSERT LINK HERE). This means that you can use this command-line tool to download other people's work and modify it to your heart's content, granted you follow Copyleft guidelines. It also allows for an easy way to vet programs to make sure that they are not malicious. Since the code is 100% visible to the public, it would take monumental effort (nearly infinte) to obscure and disseminate malicious code. 
+Any public GitHub project is typically considered Open Source and [Copyleft](https://www.gnu.org/licenses/copyleft.en.html). This means that you can use this command-line tool to download other people's work and modify it to your heart's content, granted you follow Copyleft guidelines. It also allows for an easy way to vet programs to make sure that they are not malicious. Since the code is 100% visible to the public, it would take monumental effort (nearly infinte) to obscure and disseminate malicious code. 
+
+#### NPM
 
 So, what does this have to do with NPM? Well, we need to backup to answer that.
 
-Most of the web today uses a scripting langauge called JavaScript. Why? It makes creation of complex applications efficient, thus allowing for highly responsive and functional interfaces. Almost any site that you use is built using JavaScript. The days of pure HTML and CSS are nearly over (unfortunately, depending on who you ask).
+Most of the web today uses a scripting langauge called JavaScript. Why? It makes creation of complex applications efficient, thus allowing for highly responsive and functional user interfaces (UIs). Almost any site that you use is built using JavaScript. The days of pure HTML and CSS are nearly over (unfortunately, depending on who you ask).
 
 Now, would it not be dandy if you could just start building a website in JavaScript without doing all the same repetitve groundwork that it takes to build a website? Well that's where the **N**ode **P**ackage **M**anager comes in!
 
-Node is (DEF WITH LINK).
+NPM is a [JavaScript development tool that enhances developer workflows.](https://www.npmjs.com/)
 
-Note: alternatives to NPM exist, such as yarn (LINK HERE).
+**Note:** alternatives to NPM exist, such as [yarn](https://yarnpkg.com/).
+
+Installing NPM is trivial for a command-line user; just follow the four instructions on the NPM website. Once you have NPM, you now can bring together all your knowledge to understand the foundation we've built.
+
+#### Putting It All Togther
+
+So we know that developers can create projects, and they can work on them with other people. This group would also use git to keep their local and centralized (GitHub) workflows up-to-date and working. In addition, they can also publish their repositories so that others may use their software.
+
+NPM contains a **wrapper**, or a piece of software that encapsulates another by adding additional functionality, around Git that allows developers to easily download and install other people's GitHub projects (that are written specifically in JavaScript for web). Since these projects are officially supported by NPM, we call them **modules** or **packages**. NPM allows us to, in one or two commands, grab all of someone else's work, install it into our own project, and start using it immediately.
+
+Isn't that awesome?
+
+[Here's an example](https://www.npmjs.com/package/scratch-paint) of an NPM package that allows you to directly implement a fully-functional digital canvas for painting in just a few lines of code. The page gives the viewer information about the location of source code, a demo, and a writeup for how to use the package (which developers call **documentation**).
+
+
+## Staging A Digital Intervention
+
+### Introduction
+
+Whew! If you had not previously known much of what was discussed, give yourself a pat on the back for making it this far. That was a lot of fundamentals crammed into a few pages. 
+
+The good news is that if you've made it thus far, you're likely ready to begin implementing 
