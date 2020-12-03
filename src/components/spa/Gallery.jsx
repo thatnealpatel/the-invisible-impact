@@ -14,6 +14,7 @@ class Gallery extends React.Component {
   }
 
   componentWillMount() {
+    // drop all of your images into the useful directory.
     images = this.importAll(require.context('../../media/intervention-pics/useful', false, /\.(png|jpe?g|JPE?G|svg)$/));
   }
 
@@ -58,17 +59,3 @@ class Gallery extends React.Component {
 }
 
 export default Gallery;
-
-/*
-
-            <ButtonBack className="carousel-back">Back</ButtonBack>
-            <ButtonNext className="carousel-next">Next</ButtonNext>
-
-
-
-
-
-        <div className="gallery-text">          
-          <p>test centered?</p>
-        </div>
-*/
