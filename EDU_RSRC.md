@@ -12,10 +12,12 @@ This resource is meant to be a lightweight guide that assumes very little founda
 
 **Side Note:** With the advent of language models such at [GPT-3](https://openai.com/blog/openai-api/), it's unlikely that this guide would *actually* be used in 2050. More likely, the fundamentals from the guide would hold true; however, more people will be able to [simply dictate functionality and design to an AI that would quite literally code for you](https://twitter.com/sharifshameem/status/1282676454690451457). It's already happening, and it will only get better.
 
-**Side, Side Note:** While Software Engineers are quite literally the most coveted people on the planet at the moment, even we are in danger of becoming completely extinct. Blue Collar Jobs have already died. White Collar Careers, such as accounting and law, will become exinct (or reduced by 80%) in the next 10 years. Why am I including this? I just want to cement my predictions on the internet.
+**Side, Side Note:** While Software Engineers, Mathematicians, and Physicists are quite literally the most coveted people on the planet at the moment, even we are in danger of becoming completely extinct. Blue Collar Jobs have already died. White Collar Careers, such as accounting and law, will become exinct (or reduced by 80%) in the next 10 years. Why am I including this? I just want to cement my predictions on the internet.
+
+I'm getting too cynical again. Moving on.
 
 
-Anywho, if I was a writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 2 pencils from 5 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
+If I was a writing a mathematical resource in 2020, I would not start by explaining how counts of items can be abstracted by symbols we call numbers. Instead, I would simply begin by using those abstractions and talking about addition, subtraction, multiplication, and division. You need not mentally subtract 2 pencils from 5 pencils to obtain 3 pencils. Instead, you define these abstractions by their relation with each other. That is what empowers its usage.
 
 I digress.
 
@@ -134,4 +136,58 @@ Isn't that awesome?
 
 Whew! If you had not previously known much of what was discussed, give yourself a pat on the back for making it this far. That was a lot of fundamentals crammed into a few pages. 
 
-The good news is that if you've made it thus far, you're likely ready to begin implementing 
+The good news is that if you've made it thus far, you're likely ready to begin implementing. And there is no better way to learn than by doing!
+
+### How To Build Off Someone Else's Work
+
+Now, there's certainly a reason we've convered how to use git, GitHub, command-line, and NPM. All of these tools are the bare-minimum required in order get your project up and running!
+
+Granted you've set up your [SSH](https://www.wikiwand.com/en/SSH_(Secure_Shell) [RSA](https://www.wikiwand.com/en/RSA_(cryptosystem)) private/public key pairs for your GitHub account (see [UGA CS 1302 Instructions Here](https://github.com/cs1302uga/cs1302-tutorials/blob/master/github-setup.md#setting-up-ssh-keys)), you are now a fingerprinted, digital user!
+
+<p align="center"><img src="public/edu-rsrc/clone-demo.png"></p>
+<br>
+
+Navigate to the above page for `the-invisible-impact` source code repository. Take a moment to explore the `build` branch. This is **literally** what almost all websites on the internet boil down to! Crazy, I know.
+
+Even crazier, anything on the internet just boils down to a single directory on a computer somewhere called the root, or `/`, directory. Whenever you view something, you ask some program running in some root folder to give you something. Nuts, huh?
+
+Anyways, I digress (again).
+
+### The Nitty Gritty
+
+**This guide strictly assumes the usage of macOS, Mac OS X, or Linux. This guide (much like the developer world) does not ~support~ care about Windows.** If you want Linux support on Windows, see [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
+Using the SSH [URI](https://www.wikiwand.com/en/Uniform_Resource_Identifier) pictured above, open a terminal instance. For simplicity, we'll put this project on your desktop.
+
+**Note:** Anytime you see the dollar sign character (`$`), this indicates the ending of your terminal prompt. It's an arbitrary indicator developers use to show that we are typing out a command. The contents strictly **after** the dollar sign are to be copied.
+
+**Side Note:** The screenshot of my terminal previously did not include this `$`. That's because I have mine customized to instead use the lower-case, Greek letter Zeta (`ζ`). Your system might use a pound `#`. Just understand that I am typing out a command.
+
+Here's how you can download my project and get started:
+
+* **C**hange **D**irectory to your desktop: `$ cd ~/Desktop` (note: if this folder doesn't exist, it's likely you already know what you're doing.)
+
+* Now, we clone my project at the given URI: `$ git clone git@github.com:nealdotpy/the-invisible-impact.git`. 
+
+	* You'll notice a new directory on your desktop called `the-invisible-impact`. If you want to be really crafty, you can **l**i**s**t items in your current directory (`~/Desktop`), using `$ ls`. So, without need to look at your desktop physically, the terminal tells you what's there!
+
+	* **Note:** If you are the type of person with a cluttered desktop, `ls` is not your friend.
+
+* So, you want to now change into that new directory you just downloaded: `$ cd the-invisible-impact`.
+
+So, here's where things might get a little hairy. I am assuming that you've installed NPM on your system (as recommended earlier). In addition, I am also assuming that you have developed an understanding of the folder/directory structure that is common in software development projects.
+
+It's atypical that projects are *extremely* well organized. However, it is of the utmost importance that you try your best to make them as organized as possible. For example, all the views on the website are contained within a directory called `src` which stands for source, short for source code. 
+
+Inside there, I further break up my directories by organizing all media files together in a `media` directory, and furthermore, all the components of the website into `components`. Lastly, all the components that are directly related to the single-page application (SPA), are contained within `spa`. The `Qr.jsx` file dangles outside since it is hosted on its on page. 
+
+In addition, you'll find some other files starting with `App` or `index`. These are responsible for packaging up all your componenets into a format that all website servers can understand.
+
+Here is how you reference files on a **path**: `Gallery.jsx` is a special type of JavaScript file that is located on the path `./src/components/spa/Gallery.jsx`. Easy, right?
+
+The `.` just means relative to your current directory, which if you remember, is `the-invisible-impact` (since you switched into it). 
+
+Hold on, but where is the directory `the-invisible-impact` located? Well, good question. It's relative path is `~/Desktop/the-invisible-impact`. The tilde `~` character is a short-hand for `home` directory, or your logged-in user's directory. I won't go beyond that for the scope of this resource. You might keenly see that you can also refer to `Gallery.jsx` with the path: `~/Desktop/the-invisible-impact/src/components/spa/Gallery.jsx`. If you don't quite see that, I encourage you to review the preceeding paragraphs.
+
+
+Okay, so back to getting started!
