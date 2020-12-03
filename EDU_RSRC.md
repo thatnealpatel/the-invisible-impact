@@ -44,7 +44,7 @@ Now, files contain data that might include instructions for your computer to ope
 
 #### Background
 
-Imagine if you are working on an extremely complex document--a study guide, potentially with many other people. It would become annoying if you were being worked over, or if you halted our own work because someone was working on a piece of the document you also needed to work on.
+Imagine if you are working on an extremely complex document--a study guide, potentially with many other people. It would become annoying if you were being worked over, or if you halted your own work because someone was working on a piece of the document you also needed to work on.
 
 In addition, what if someone makes a mistake? What if you make a mistake? What if something gets deleted that you needed? What if another document that linked to your document was deleted, breaking the connection?
 
@@ -56,7 +56,7 @@ This is where Git comes in. Git is what is known as a **version control system**
 
 You might be familiar with `Control-S` or `Command-S` for saving documents. Basic save operations create lines, not trees. You are able to undo and redo, going backwards and forwards respectively, in your document. However, this is not always helpful; imagine a situation where Jessica edits something you wrote. However, Jessica made a mistake, and you cannot undo her mistake since you did not make it. We clearly need a more robust "save" system.
 
-This is where Git comes in. The tree allows you to jump back and forth through time, viewing your project and its state at different points. It even allows you to seperate out who did what, when, and why.
+The tree allows you to jump back and forth through time, viewing your project and its state at different points. It even allows you to seperate out who did what, when, and why.
 
 #### Git Workflow
 
@@ -82,7 +82,7 @@ You might have noticed in the screenshot, my terminal tells me some additional i
 
 #### Branching
 
-Branching is quite literally what is sounds like! We talked about how our VCS is a tree! Well, we call it a tree because it has branches! Now many philosophies exist for *how* your branches should be set up. Some people will assign a branch to each person's work. Other systems will assign branches based on what is being worked on, regardless of how many people are working on it. 
+Branching is quite literally what it sounds like! We talked about how our VCS is a tree! Well, we call it a tree because it has branches! Now many philosophies exist for *how* your branches should be set up. Some people will assign a branch to each person's work. Other systems will assign branches based on what is being worked on, regardless of how many people are working on it. 
 
 *How* you branch is not as important as *why* you branch. When you create a branch, you are making a perfect replica of the project and *branching* it away from another branch, say the `main` branch. It is important to note that the simplest branch is a branch which contains nothing.
 
@@ -101,23 +101,23 @@ For example, if I am creating a simple single-page application (SPA) website, I 
 #### Background 
 Now, as someone who is well-versed in git, you might be curious as to what exactly it can do beyond saving. Well, GitHub allows for the upload and sharing of open source programs. These are typically managed by many people using git on their local machines. GitHub makes it possible to upload these projects to a centralized location. 
 
-Any public GitHub project is typically considered Open Source and [Copyleft](https://www.gnu.org/licenses/copyleft.en.html). This means that you can use this command-line tool to download other people's work and modify it to your heart's content, granted you follow Copyleft guidelines. It also allows for an easy way to vet programs to make sure that they are not malicious. Since the code is 100% visible to the public, it would take monumental effort (nearly infinte) to obscure and disseminate malicious code. 
+Any public GitHub project is typically considered Open Source and [Copyleft](https://www.gnu.org/licenses/copyleft.en.html). This means that you can use this command-line tool to download other people's work and modify it to your heart's content, granted you follow Copyleft guidelines. It also allows for an easy way to vet programs to make sure that they are not malicious. Since the code is 100% visible to the public, it would take monumental efforts (nearly infinte) to obscure and disseminate malicious code. 
 
 #### NPM
 
-So, what does this have to do with NPM? Well, we need to backup to answer that.
+So, what does this have to do with NPM? Well, we need to back up to answer that.
 
 Most of the web today uses a scripting langauge called JavaScript. Why? It makes creation of complex applications efficient, thus allowing for highly responsive and functional user interfaces (UIs). Almost any site that you use is built using JavaScript. The days of pure HTML and CSS are nearly over (unfortunately, depending on who you ask).
 
-Now, would it not be dandy if you could just start building a website in JavaScript without doing all the same repetitve groundwork that it takes to build a website? Well that's where the **N**ode **P**ackage **M**anager comes in!
+Now, would it not be dandy if you could just start building a website in JavaScript without doing all the repetitve groundwork that it takes to build a website? Well that's where the **N**ode **P**ackage **M**anager comes in!
 
 NPM is a [JavaScript development tool that enhances developer workflows.](https://www.npmjs.com/)
 
 **Note:** alternatives to NPM exist, such as [yarn](https://yarnpkg.com/).
 
-Installing NPM is trivial for a command-line user; just follow the four instructions on the NPM website. Once you have NPM, you now can bring together all your knowledge to understand the foundation we've built.
+Installing NPM is trivial for a command-line user; just follow the four instructions on the NPM website. Once you have NPM, you can now bring together all your knowledge to understand the foundation we've built.
 
-#### Putting It All Togther
+#### Putting It All Together
 
 So we know that developers can create projects, and they can work on them with other people. This group would also use git to keep their local and centralized (GitHub) workflows up-to-date and working. In addition, they can also publish their repositories so that others may use their software.
 
@@ -136,13 +136,13 @@ Isn't that awesome?
 
 Whew! If you had not previously known much of what was discussed, give yourself a pat on the back for making it this far. That was a lot of fundamentals crammed into a few pages. 
 
-The good news is that if you've made it thus far, you're likely ready to begin implementing. And there is no better way to learn than by doing!
+The good news is that if you've made it this far, you're likely ready to begin implementing. And there is no better way to learn than by doing!
 
-### How To Build Off Someone Else's Work
+### How To Build Off Of Someone Else's Work
 
-Now, there's certainly a reason we've convered how to use git, GitHub, command-line, and NPM. All of these tools are the bare-minimum required in order get your project up and running!
+Now, there's certainly a reason we've covered how to use git, GitHub, command-line, and NPM. All of these tools are the bare-minimum required in order to get your project up and running!
 
-Granted you've set up your [SSH](https://www.wikiwand.com/en/SSH_(Secure_Shell) [RSA](https://www.wikiwand.com/en/RSA_(cryptosystem)) private/public key pairs for your GitHub account (see [UGA CS 1302 Instructions Here](https://github.com/cs1302uga/cs1302-tutorials/blob/master/github-setup.md#setting-up-ssh-keys)), you are now a fingerprinted, digital user!
+Granted you've set up your [SSH](https://www.wikiwand.com/en/SSH_(Secure_Shell)) [RSA](https://www.wikiwand.com/en/RSA_(cryptosystem)) private/public key pairs for your GitHub account (see [UGA CS 1302 Instructions Here](https://github.com/cs1302uga/cs1302-tutorials/blob/master/github-setup.md#setting-up-ssh-keys)), you are now a fingerprinted, digital user!
 
 <p align="center"><img src="public/edu-rsrc/clone-demo.png"></p>
 <br>
